@@ -1,0 +1,90 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    align-items: start;
+    max-width: 1600px;
+    margin: auto;
+    background: #CC0000;
+    height: 140px;
+}
+
+  #logo {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 30px;
+    align-self: flex-start;
+    margin-top: 20px;
+    width: 150px;
+}
+
+#name {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 80px;
+    color: white;
+}
+
+#iconlist{
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-self: end;
+    align-self: center;
+    display: inline-block;
+    letter-spacing: 3px;
+    float: left;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.fa{
+    color: yellow;
+}
+
+#chart-header{
+    height: 70px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#chart-header h2{
+    text-align: center;
+    font-size: 50px;
+    grid-column: 2;
+}
+
+.divider{
+    height: 2px;
+    border-radius: 10%;
+    width: 100%;
+    margin: 10px 30px 10px 0;
+    background: linear-gradient(to right, #d6d6d6, #d6d6d6, yellow)
+}
+
+.chart {
+    height: auto;
+    grid-row:3;
+}
+
+.spacer {
+    height: 20px;
+    background: linear-gradient(to right, #d6d6d6, #d6d6d6, yellow)
+}
+
+
